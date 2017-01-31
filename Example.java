@@ -9,6 +9,8 @@ import java.util.ArrayList;
       System.out.println(list);
       System.out.println(list.contains("Kulis"));
       System.out.println(list.contains("Henk"));
+      String firstName = list.get(1);
+      System.out.println(firstName);
     }
   }
 
