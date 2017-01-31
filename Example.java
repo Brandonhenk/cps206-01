@@ -7,6 +7,8 @@ import java.util.ArrayList;
       list.add (0,"Henk");
       System.out.println(list.size());
       System.out.println(list);
+      System.out.println(list.contains("Kulis"));
+      System.out.println(list.contains("Henk"));
     }
   }
 
