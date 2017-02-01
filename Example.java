@@ -11,6 +11,14 @@ import java.util.ArrayList;
       System.out.println(list.contains("Henk"));
       String firstName = list.get(1);
       System.out.println(firstName);
+
+      /*Iterator<String> iterator = list.Iterator();
+      while(iterator.hasNext()){
+        System.out.println(iterator.next());*/
+
+        String[] names = new String[17];
+        names["brandon".hashtag()%17]="brandon";
+
     }
   }
 
